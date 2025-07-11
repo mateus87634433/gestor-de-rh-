@@ -1,18 +1,30 @@
-## Getting Started
+# RHControl – Sistema de Gestão de RH em Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Bem-vindo ao **RHControl**, um sistema simples de gestão de recursos humanos desenvolvido em Java com foco em cadastro e gerenciamento de funcionários.
 
-## Folder Structure
+Funcionalidades
 
-The workspace contains two folders by default, where:
+-  Cadastro de funcionários (nome, cargo, salário)
+-  Listagem de todos os funcionários cadastrados
+-  Reajuste salarial por percentual
+-  Módulo de operações financeiras entre dois valores:
+  - Soma
+  - Subtração
+  - Multiplicação
+  - Divisão
+  - Divisão inteira
+  - Resto da divisão
+  - Exponenciação
+  - Comparação de maior e menor
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Tecnologias Utilizadas
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- Java (sem frameworks)
+- Paradigma de Programação Orientada a Objetos
+- Entrada e saída via terminal (Scanner)
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+ Estrutura do Projeto
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+- `Main.java` – Interface principal com menu interativo
+- `Funcionario.java` – Classe responsável pelos dados e métodos do funcionário
+- `OperacoesFinanceiras.java` – Classe com métodos matemáticos utilitários
